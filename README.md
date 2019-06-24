@@ -26,10 +26,10 @@ Minimalist garbage collector in C language
 
 ### Prototypes
 
-void	*gmalloc(t_garbage *gc, size_t size);
-void	*ginit(t_garbage *gc);
-void	*gextend(t_garbage *gc);
-void	gfree(t_garbage *gc);
+- void	*gmalloc(t_garbage *gc, size_t size);
+- void	*ginit(t_garbage *gc);
+- void	*gextend(t_garbage *gc);
+- void	gfree(t_garbage *gc);
 
 ## Notes
 
